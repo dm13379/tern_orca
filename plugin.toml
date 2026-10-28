@@ -1,0 +1,21 @@
+schema = 1
+id = "workspace-rail"
+name = "Workspace Rail"
+version = "1.0.0"
+description = "Projects and worktrees across connected Tern hosts"
+icon = "folder"
+host = "host.luau"
+window = "window.luau"
+styles = ["sidebar.css", "wizard.css"]
+
+[[blocks]]
+id = "sidebar"
+title = "Workspace Rail"
+icon = "folder"
+palette = false
+
+[[blocks]]
+id = "wizard"
+title = "Workspace Rail Project Wizard"
+icon = "folder"
+palette = false
